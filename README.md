@@ -1,6 +1,25 @@
 # codable_flask
 '21 fall codable project (todo, reminder, qr) with flask
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 9/26/21
     목적: 웹사이트에 todo, reminder, qr code를 flask를 통해 구현하려함
     한 일: 

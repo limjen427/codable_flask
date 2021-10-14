@@ -28,3 +28,19 @@ Flask 계속 공부
 non-local host로 바꿀 수 있도록 연구
 todo를 flask에 구현하도록 노력
 입력한 link를 qr로 구현하도록 노력
+
+10/10/21
+진행상황:
+Todo list 구축
+1. .venv 활성화
+2. app folder
+    --> static folder
+        --> modal.js: 웹사이트에 보이는 모든 버튼들 만듦
+    --> templates folder
+        --> index.html: website 뼈대 만듦
+    --> routes.py: 각각 edit, delete, create 등의 routes들은 만들어 놨으나 아직 연결 안함
+    --> database.py: 필요한 functions 만들었지만 연결x, 기본 fetch_todo function을 만들어서 list 넣어줌. 보이는 todo들을 리스트로 넣어줌
+
+계획:
+웹사이트의 뼈대를 html, py, js로 만들었으면 이것들(특히, 버튼들(new tasks, save tasks, etc.))을 GCP를 통해 연결해야함.
+GCP에 대해 더 공부한 후 연결 예정

@@ -42,7 +42,7 @@ def create():
     result = {'success': True, 'response': 'Done'}
     return jsonify(result)
 
-@app.route('/')
+@app.route('/todo')
 def homepage():
     items = db_helper.fetch_todo()
     return render_template('index.html', items = items)

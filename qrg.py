@@ -1,7 +1,7 @@
 import qrcode
 # Link for website
-input_data = "http://127.0.0.1:5000/"
-#input_data = "https://www.naver.com/"
+#input_data = "http://127.0.0.1:5000/"
+input_data = "https://www.google.com/"
 
 
 #Creating an instance of qrcode
@@ -12,5 +12,5 @@ qr = qrcode.QRCode(
 qr.add_data(input_data)
 qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
-img.save('qr1.png')
+img.save('example2.png')
 
